@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Loan{
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		int months = 12;
+		int years  = months/12;
+		int mnth=months%12;
+		String str=years+"."+mnth;
+		float con=float.parseFloat(str);
+		System.out.println(con);
+	}
+}
