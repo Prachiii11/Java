@@ -1,0 +1,11 @@
+class Div 
+{
+	public static void main(String[] args) 
+	{
+		int n1=2000;
+		int n2=9000;
+
+		int ans=n1/n2;
+		System.out.println(ans);
+	}
+}
